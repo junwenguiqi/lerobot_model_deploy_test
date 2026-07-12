@@ -1,0 +1,47 @@
+# Python
+**/__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+
+# Credentials and caches
+**/hf_pi_cache/
+**/huggingface/
+**/.cache/
+**/token
+**/stored_tokens
+*.log
+wandb/
+
+# Datasets and generated outputs
+dataset_tactile/
+datasets/
+outputs/
+checkpoints/
+*.arrow
+*.parquet
+*.hdf5
+*.h5
+*.zarr/
+*.mp4
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
